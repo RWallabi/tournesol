@@ -712,7 +712,11 @@
     "trustedDomainsToProtectTournesol": "In order to protect Tournesol from fake Accounts, by default, Tournesol assigns a limited trust score to newly created accounts.",
     "trustedDomainsGainMoreVotingRights": "You can gain significantly more trust by validating <2>an email address from a domain considered trustworthy</2>, or when other users vouch for you.",
     "trustedDomainsValuable": "In any case, your contributions are valuable to us, as they will motivate further research in safe and ethical algorithms.",
-    "trustedDomainsCurrentList": "Current list of domains considered trustworthy"
+    "trustedDomainsCurrentList": "Current list of domains considered trustworthy",
+    "jobJournalistAndYoutuber": "Journalist & Youtuber",
+    "roleExecutiveDirector": "Executive Director",
+    "jobPhilosopher": "Philosopher",
+    "involvedCitizen": "Involved citizen"
   },
   "donate": {
     "ifPossibleConsiderUsingDirectTransfers": "If possible, consider using direct transfers instead (see below). This allows the association to not pay additional fees and makes the most of your contributions.",
@@ -1016,7 +1020,7 @@
   "visualizeDataBox": {
     "visualizeTheData": "Visualize the data",
     "youCanQuicklyExploreEtc": "You can quickly explore our public database with our <1>Tournesol Data Visualization</1> application made with Streamlit.",
-    "personCorrelationCoefficientMatrix": "Pearson correlation coefficients matrix of comparison criteria scores (2025/05/12)."
+    "personCorrelationCoefficientMatrix": "Pearson correlation coefficients matrix of comparison criteria scores (2026/09/01)."
   },
   "reset": {
     "ifUserExistsResetLinkWillBeSent": "Done!<1></1>If this user exists, an email will be sent with a reset link.",
