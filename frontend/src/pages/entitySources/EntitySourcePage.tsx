@@ -57,6 +57,11 @@ const EntitySourcePage = () => {
       return;
     }
 
+    if (searchString.get('advanced') === null) {
+      searchString.set('advanced', 'unsafe');
+      updateSearchParams(searchString.toString(), { replace: true });
+    }
+
     const fetchEntities = async () => {
       setIsLoading(true);
       try {
@@ -116,12 +121,6 @@ const EntitySourcePage = () => {
         >
           <SearchFilter
             appearExpanded
-            // Contrary to the recommendation feed, we want to display the
-            // unsafe entities by default when a user access to their entity
-            // source page. TODO: make the reason explicit.
-            defaultFilters={[
-              { name: 'advanced', value: 'unsafe', defaultOnlyNull: true },
-            ]}
             extraActions={
               <Box
                 sx={{

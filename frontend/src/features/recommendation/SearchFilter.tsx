@@ -41,6 +41,7 @@ function SearchFilter({
   disableAdvanced?: boolean;
   disableCriteria?: boolean;
   disableDuration?: boolean;
+  // TODO: delete this prop if not used
   defaultFilters?: Array<{
     name: string;
     value: string;
