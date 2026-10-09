@@ -55,10 +55,10 @@ export enum RouteID {
   Home = 'home',
   PwaEntryPoint = 'pwaEntryPoint',
   // new feeds
-  EntitySource = 'entitySource',
   FeedForYou = 'feedForYou',
   FeedTopItems = 'feedTopItems',
   Search = 'search',
+  EntitySource = 'entitySource',
   // deprecated feed, replaced by FeedForYou, should be deleted later in 2025
   FeedCollectiveRecommendations = 'feedCollectiveRecommendations',
   // depracated feed, replaced by FeedTopItems, should be deleted later in 2025
